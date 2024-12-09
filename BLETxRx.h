@@ -23,7 +23,7 @@ public:
 
   void init(int baudRate) {
     startSerial(baudRate);
-    String deviceName("TxRx2");
+    String deviceName("TxRx");
 
     // TODO: move this to constructor? ... kept giving errors
     mService = new BLEService(serviceUUID.c_str());
